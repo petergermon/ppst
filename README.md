@@ -47,7 +47,7 @@ After running these scripts, it's a good security practice to disable execution 
   </tr>
     <tr>
     <td>RestartAdapters</td>
-    <td>Restarts all adapters connected on the host system.</td>
+    <td>Restarts all network adapters connected on the host system.</td>
   </tr>
     <tr>
     <td>WinsockReset</td>

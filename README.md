@@ -31,7 +31,7 @@ After running these scripts, it's a good security practice to disable execution 
   </tr>
   <tr>
     <td>NetworkTest</td>
-    <td>Runs a test to determine network functionality, provides list of adapters, ip addresses, DNS addresses and pings the loopback, default gateway and google.</td>
+    <td>Runs a test to determine network functionality, provides list of network adapters, IP addresses, DNS addresses and pings the loopback, default gateway and google.</td>
   </tr>
     <tr>
     <td>RestartAdapters</td>

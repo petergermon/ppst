@@ -1,5 +1,5 @@
-﻿<#
-    WinPWSH-Toolkit - Winsock Reset
+<#
+    PowerShell-Technician-Toolkit - Winsock Reset
     Powershell Script developed by Peter Germon under the GNU General Public License v3.0
 #>
 

@@ -3,7 +3,7 @@ PowerShell Scripts that can be ultilised to debug technical issues that may aris
 <br>
 
 ----------------------------------------------------------------------------------------------------------------------
-<h3><ins>Enabling PowerShell Scripts</ins></h3>
+<h2><ins>Enabling PowerShell Scripts</ins></h2>
 To ensure these scripts run correctly without errors, ensure PowerShell is running in an administrator session.
 <br><b>Run Windows PowerShell as Administrator:</b>
 <br><i>Right-click "Windows PowerShell" > "Run as Administrator".</i>
@@ -22,7 +22,7 @@ After running these scripts, it's a good security practice to disable execution 
 <br>
 
 ----------------------------------------------------------------------------------------------------------------------
-<h3><ins>Included Scripts</ins></h3>
+<h2><ins>Included Scripts</ins></h2>
 <dl>
   <dt>Networking</dt>
   <dd><b>NetworkTest</b> - Runs a test to determine network functionality, provides list of adapters, ip addresses, DNS addresses and pings the loopback, default gateway and google.</dd>

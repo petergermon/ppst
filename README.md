@@ -1,8 +1,8 @@
 # WinPWSH-Toolkit
 Powershell Scripts 
 
-Enable Powershell Scripts:
-<br>Set-ExecutionPolicy RemoteSigned
+<b>Enable Powershell Scripts:</b>
+<br><i>Set-ExecutionPolicy RemoteSigned</i>
 
-Disable Powershell Scripts:
-<br>Set-ExecutionPolicy Restricted
+<b>Disable Powershell Scripts:</b>
+<br><i>Set-ExecutionPolicy Restricted</i>

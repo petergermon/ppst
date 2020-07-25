@@ -22,7 +22,7 @@ After running these scripts, it's a good security practice to disable execution 
 <br>
 
 ----------------------------------------------------------------------------------------------------------------------
-<h2 align="center"><ins><centre>Included PowerShell Scripts</ins></h2>
+<h2 align="center"><ins>Included PowerShell Scripts</ins></h2>
 <h3>Networking</h3>
 <table style="width:100%">
   <tr>

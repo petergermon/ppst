@@ -1,4 +1,4 @@
-﻿<#
+<#
     PowerShell-Technician-Toolkit - Backup User Data
     Powershell Script developed by Peter Germon under the GNU General Public License v3.0
 #>

@@ -25,4 +25,11 @@ After running these scripts, it's a good security practice to disable execution 
 <dl>
   <dt>Networking</dt>
   <dd>NetworkTest</dd>
+  <dd>ResetAdapters</dd>
+</dl>
+<dl>
+  <dt>System</dt>
+  <dd>FixCorruptOS</dd>
+  <dd>FixWindowsApps</dd>
+  <dd>FixWindowsUpdate</dd>
 </dl>

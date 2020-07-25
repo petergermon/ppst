@@ -23,6 +23,17 @@ After running these scripts, it's a good security practice to disable execution 
 
 ----------------------------------------------------------------------------------------------------------------------
 <h2 align="center"><ins>Included PowerShell Scripts</ins></h2>
+<h3>Data</h3>
+<table style="width:100%">
+  <tr>
+    <th>Script</th>
+    <th>Description</th> 
+  </tr>
+  <tr>
+    <td>BackupUserData</td>
+    <td>Backs up the user data at "C:\Users" to a specified backup location defined by the user.</td>
+  </tr>
+ </table>
 <h3>Networking</h3>
 <table style="width:100%">
   <tr>

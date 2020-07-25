@@ -63,11 +63,11 @@ After running these scripts, it's a good security practice to disable execution 
   </tr>
   <tr>
     <td>AdministratorAccountDisable</td>
-    <td>Disables the local administrator account.</b>.</td>
+    <td>Disables the local administrator account.</td>
   </tr>
   <tr>
     <td>AdministratorAccountEnable</td>
-    <td>Enables the local administrator account.</b>.</td>
+    <td>Enables the local administrator account.</td>
   </tr>
   <tr>
     <td>FixCorruptOS</td>

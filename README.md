@@ -1,6 +1,8 @@
 # WinPWSH-Toolkit
 Powershell Scripts that can be ultilised to debug technical issues that may arise within the Windows Operating System.
-
+<br>
+----------------------------------------------------------------------------------------------------------------------
+<br>
 You will need to enable execution of powershell scripts in order for these scripts to work!
 <br>
 <b>Enable Powershell Scripts:</b>

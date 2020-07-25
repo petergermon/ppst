@@ -1,5 +1,5 @@
 ﻿<#
-    WinPWSH-Toolkit - FixWindowsApps
+    PowerShell-Technician-Toolkit - FixWindowsApps
     Powershell Script developed by Peter Germon under the GNU General Public License v3.0
 #>
 

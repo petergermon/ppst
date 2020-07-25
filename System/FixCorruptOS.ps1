@@ -1,5 +1,5 @@
 ﻿<#
-    WinPWSH-Toolkit - FixCorruptOS
+    PowerShell-Technician-Toolkit - FixCorruptOS
     Powershell Script developed by Peter Germon under the GNU General Public License v3.0
 #>
 

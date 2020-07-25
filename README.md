@@ -27,6 +27,7 @@ After running these scripts, it's a good security practice to disable execution 
   <dt>Networking</dt>
   <dd><b>NetworkTest</b> - Runs a test to determine network functionality, provides list of adapters, ip addresses, DNS addresses and pings the loopback, default gateway and google.</dd>
   <dd><b>RestartAdapters</b> - Restarts all adapters connected on the host system. </dd>
+  <dd><b>WinsockReset</b> - Resets the Windows Sockets API protocol. </dd>
 </dl>
 <dl>
   <dt>System</dt>

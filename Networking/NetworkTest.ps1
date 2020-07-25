@@ -10,7 +10,7 @@ $gateway= $PSScriptRoot+"\Modules\gateway.ps1"
 $ping= $PSScriptRoot+"\Modules\ping.ps1"
 
 Write-Host "--------------------------------------------------------------------------------------"
-Write-Host " WinPWSH-Toolkit - Network Test"
+Write-Host " PowerShell-Technician-Toolkit - Network Test"
 Write-Host " Powershell Script developed by Peter Germon under the GNU General Public License v3.0"
 Write-Host "--------------------------------------------------------------------------------------"
 Write-Host " "

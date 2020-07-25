@@ -35,3 +35,13 @@ After running these scripts, it's a good security practice to disable execution 
   <dd><b>FixWindowsApps</b> - Reinstalls all Windows Apps.</dd>
   <dd><b>FixWindowsUpdate</b> - Deletes the Windows Update cache and resets Windows Update.</dd>
 </dl>
+<b>Networking</b>
+<table style="width:100%">
+  <tr>
+    <th>Script</th>
+    <th>Description</th> 
+  </tr>
+  <tr>
+    <td>NetworkTest</td>
+    <td>Runs a test to determine network functionality, provides list of adapters, ip addresses, DNS addresses and pings the loopback, default gateway and google.</td>
+  </tr>

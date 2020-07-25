@@ -2,7 +2,7 @@
 Powershell Scripts 
 
 Enable Powershell Scripts:
-Set-ExecutionPolicy RemoteSigned
+<br>Set-ExecutionPolicy RemoteSigned
 
 Disable Powershell Scripts:
-Set-ExecutionPolicy Restricted
+<br>Set-ExecutionPolicy Restricted

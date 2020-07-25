@@ -5,7 +5,8 @@ Powershell Scripts that can be ultilised to debug technical issues that may aris
 To ensure these scripts run correctly without errors, ensure Powershell is running in an administrator session
 <br><i>Right-click "Windows Powershell" > "Run as Administrator".</i>
 <br>
-You will need to enable execution of powershell scripts in order for these scripts to work!
+<br>
+You will also need to enable execution of powershell scripts in order for these scripts to work!
 <br>
 <b>Enable Powershell Scripts:</b>
 <br><i>Set-ExecutionPolicy Unrestricted</i>

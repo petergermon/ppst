@@ -22,5 +22,5 @@ After running these scripts, it's a good security practice to disable execution 
 
 ----------------------------------------------------------------------------------------------------------------------
 <h3>Included Scripts</h3>
-<li>Test</li>
-<li>Test</li>
+<li>Networking<li>FixCorruptOS</li></li>
+<li>System<li>NetworkTest</li></li>

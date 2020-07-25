@@ -54,6 +54,10 @@ After running these scripts, it's a good security practice to disable execution 
     <td>Runs SFC and DISM scans to repair corruptions on the system and Windows image <br><b>(Internet Connection Required)</b>.</td>
   </tr>
     <tr>
+    <td>FixCorruptOS_Quick</td>
+    <td>Runs an SFC scan to repair corruptions on the system.</td>
+  </tr>
+    <tr>
     <td>FixWindowsApps</td>
     <td>Reinstalls all Windows Apps.</td>
   </tr>

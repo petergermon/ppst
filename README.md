@@ -1,5 +1,5 @@
 # WinPWSH-Toolkit
-Powershell Scripts that can be ultilised to debug technical issues that may arise within the Windows Operating System.
+PowerShell Scripts that can be ultilised to debug technical issues that may arise within the Windows Operating System.
 <br>
 ----------------------------------------------------------------------------------------------------------------------
 To ensure these scripts run correctly without errors, ensure PowerShell is running in an administrator session.

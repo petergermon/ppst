@@ -11,7 +11,6 @@ cmd /C "rmdir C:\Windows\system32\catroot2 /s /q"
 cmd /C "sc.exe sdset bits D:(A;;CCLCSWRPWPDTLOCRRC;;;SY)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)(A;;CCLCSWLOCRRC;;;AU)(A;;CCLCSWRPWPDTLOCRRC;;;PU)"
 cmd /C "sc.exe sdset wuauserv D:(A;;CCLCSWRPWPDTLOCRRC;;;SY)(A;;CCDCLCSWRPWPDTLOCRSDRCWDWO;;;BA)(A;;CCLCSWLOCRRC;;;AU)(A;;CCLCSWRPWPDTLOCRRC;;;PU)"
 
-#cd /d "C:\Windows\system32\"
 cmd /C "C:\Windows\system32\regsvr32.exe /s atl.dll"
 cmd /C "C:\Windows\system32\regsvr32.exe /s urlmon.dll"
 cmd /C "C:\Windows\system32\regsvr32.exe /s mshtml.dll"

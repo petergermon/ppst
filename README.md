@@ -71,10 +71,10 @@ After running these scripts, it's a good security practice to disable execution 
   </tr>
     <tr>
     <td>FixWindowsApps</td>
-    <td>Reinstalls all Windows Apps.</td>
+    <td>Reinstalls all Windows Apps<br><b>(Auto Restarts Computer)</b>.</td>
   </tr>
     <tr>
     <td>FixWindowsUpdate</td>
-    <td>Deletes the Windows Update cache and resets Windows Update.</td>
+    <td>Deletes the Windows Update cache and resets Windows Update<br><b>(Auto Restarts Computer)</b>.</td>
   </tr>
  </table>

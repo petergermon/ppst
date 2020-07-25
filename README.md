@@ -25,12 +25,12 @@ After running these scripts, it's a good security practice to disable execution 
 <h3><ins>Included Scripts</ins></h3>
 <dl>
   <dt>Networking</dt>
-  <dd>NetworkTest</dd>
-  <dd>ResetAdapters</dd>
+  <dd>NetworkTest - Runs a test to determine network functionality, provides list of adapters, ip addresses, DNS addresses and pings the loopback, default gateway and google.</dd>
+  <dd>RestartAdapters - Restarts all adapters connected on the host system. </dd>
 </dl>
 <dl>
   <dt>System</dt>
-  <dd>FixCorruptOS</dd>
-  <dd>FixWindowsApps</dd>
-  <dd>FixWindowsUpdate</dd>
+  <dd>FixCorruptOS - Runs SFC and DISM scans to repair potential corruptions on the system and windows image.</dd>
+  <dd>FixWindowsApps - Reinstalls all Windows Apps.</dd>
+  <dd>FixWindowsUpdate - Deletes the Windows Update cache and resets Windows Update.</dd>
 </dl>

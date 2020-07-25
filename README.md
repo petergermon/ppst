@@ -2,7 +2,7 @@
 PowerShell Scripts that can be ultilised to debug technical issues that may arise within the Windows Operating System.
 <br>
 ----------------------------------------------------------------------------------------------------------------------
-<h3><u>Enabling PowerShell Scripts</u></h3>
+<h3><ins>Enabling PowerShell Scripts</ins></h3>
 To ensure these scripts run correctly without errors, ensure PowerShell is running in an administrator session.
 <br><b>Run Windows PowerShell as Administrator:</b>
 <br><i>Right-click "Windows PowerShell" > "Run as Administrator".</i>
@@ -21,7 +21,7 @@ After running these scripts, it's a good security practice to disable execution 
 <br>
 
 ----------------------------------------------------------------------------------------------------------------------
-<h3><u>Included Scripts</u></h3>
+<h3><ins>Included Scripts</ins></h3>
 <dl>
   <dt>Networking</dt>
   <dd>NetworkTest</dd>

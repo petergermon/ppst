@@ -7,7 +7,7 @@ $PSScriptRoot
 $sfc= $PSScriptRoot+"\Modules\sfc.ps1"
 
 Write-Host "--------------------------------------------------------------------------------------"
-Write-Host " WinPWSH-Toolkit - FixCorruptOS_Quick"
+Write-Host " PowerShell-Technician-Toolkit - FixCorruptOS_Quick"
 Write-Host " Powershell Script developed by Peter Germon under the GNU General Public License v3.0"
 Write-Host "--------------------------------------------------------------------------------------"
 Write-Host " "

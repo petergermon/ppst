@@ -1,5 +1,5 @@
-﻿<#
-    WinPWSH-Toolkit - Restart Adapters
+<#
+    PowerShell-Technician-Toolkit - Restart Adapters
     Powershell Script developed by Peter Germon under the GNU General Public License v3.0
 #>
 

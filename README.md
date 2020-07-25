@@ -3,7 +3,7 @@ PowerShell Scripts that can be ultilised to debug technical issues that may aris
 <br>
 
 ----------------------------------------------------------------------------------------------------------------------
-<h2 align="center"><ins>Enabling PowerShell Script Execution</ins></h2>
+<h2 align="center"><ins>Enabling/Disabling PowerShell Script Execution</ins></h2>
 To ensure these scripts run correctly without errors, ensure PowerShell is running in an administrator session.
 <br><b>Run Windows PowerShell as Administrator:</b>
 <br><i>Right-click "Windows PowerShell" > "Run as Administrator".</i>

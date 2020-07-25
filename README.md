@@ -35,7 +35,7 @@ After running these scripts, it's a good security practice to disable execution 
   <dd><b>FixWindowsApps</b> - Reinstalls all Windows Apps.</dd>
   <dd><b>FixWindowsUpdate</b> - Deletes the Windows Update cache and resets Windows Update.</dd>
 </dl>
-<b>Networking</b>
+<h3>Networking</h3>
 <table style="width:100%">
   <tr>
     <th>Script</th>
@@ -44,4 +44,12 @@ After running these scripts, it's a good security practice to disable execution 
   <tr>
     <td>NetworkTest</td>
     <td>Runs a test to determine network functionality, provides list of adapters, ip addresses, DNS addresses and pings the loopback, default gateway and google.</td>
+  </tr>
+    <tr>
+    <td>RestartAdapters</td>
+    <td>Restarts all adapters connected on the host system.</td>
+  </tr>
+    <tr>
+    <td>WinsockReset</td>
+    <td>Resets the Windows Sockets API protocol.</td>
   </tr>

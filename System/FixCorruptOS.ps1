@@ -8,7 +8,7 @@ $sfc= $PSScriptRoot+"\Modules\sfc.ps1"
 $dism= $PSScriptRoot+"\Modules\dism.ps1"
 
 Write-Host "--------------------------------------------------------------------------------------"
-Write-Host " WinPWSH-Toolkit - FixCorruptOS"
+Write-Host " PowerShell-Technician-Toolkit - FixCorruptOS"
 Write-Host " Powershell Script developed by Peter Germon under the GNU General Public License v3.0"
 Write-Host "--------------------------------------------------------------------------------------"
 Write-Host " "

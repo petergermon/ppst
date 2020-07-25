@@ -7,7 +7,7 @@ $PSScriptRoot
 $winapps= $PSScriptRoot+"\Modules\winapps.ps1"
 
 Write-Host "--------------------------------------------------------------------------------------"
-Write-Host " WinPWSH-Toolkit - FixWindowsApps"
+Write-Host " PowerShell-Technician-Toolkit - FixWindowsApps"
 Write-Host " Powershell Script developed by Peter Germon under the GNU General Public License v3.0"
 Write-Host "--------------------------------------------------------------------------------------"
 Write-Host " "

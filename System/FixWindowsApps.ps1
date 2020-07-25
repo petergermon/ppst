@@ -17,6 +17,3 @@ Write-Host "-------------------------------------------------------"
 Write-Host " Reinstalling Windows Apps"
 Write-Host "-------------------------------------------------------"
 &$winapps
-Write-Host " "
-Write-Host " "
-Restart-Computer

@@ -34,6 +34,7 @@ After running these scripts, it's a good security practice to disable execution 
     <td>Backs up the user data at "C:\Users" to a specified backup location defined by the user.</td>
   </tr>
  </table>
+<br>
 <h3>Networking</h3>
 <table style="width:100%">
   <tr>

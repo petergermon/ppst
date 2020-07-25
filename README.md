@@ -62,6 +62,14 @@ After running these scripts, it's a good security practice to disable execution 
     <th>Description</th> 
   </tr>
   <tr>
+    <td>AdministratorAccountDisable</td>
+    <td>Disables the local administrator account.</b>.</td>
+  </tr>
+  <tr>
+    <td>AdministratorAccountEnable</td>
+    <td>Enables the local administrator account.</b>.</td>
+  </tr>
+  <tr>
     <td>FixCorruptOS</td>
     <td>Runs SFC and DISM scans to repair corruptions on the system and Windows image <br><b>(Internet Connection Required)</b>.</td>
   </tr>

@@ -70,6 +70,10 @@ After running these scripts, it's a good security practice to disable execution 
     <td>Enables the local administrator account.</td>
   </tr>
   <tr>
+    <td>Fix100PercentDiskUsage</td>
+    <td>Disables BITS, SysMain and DiagTrack services.</td>
+  </tr>
+  <tr>
     <td>FixCorruptOS</td>
     <td>Runs SFC and DISM scans to repair corruptions on the system and Windows image. <br><b>(Internet Connection Required)</b></td>
   </tr>

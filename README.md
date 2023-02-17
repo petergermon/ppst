@@ -31,7 +31,7 @@ After running these scripts, it's a good security practice to disable execution 
   </tr>
   <tr>
     <td>AutoBackup</td>
-    <td>Automatically backup data, you choose the backup source and destination.</td>
+    <td>Automatically backup data allowing you to define the source and destination.</td>
   </tr>
  </table>
 <br>

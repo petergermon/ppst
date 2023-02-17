@@ -30,8 +30,8 @@ After running these scripts, it's a good security practice to disable execution 
     <th>Description</th> 
   </tr>
   <tr>
-    <td>BackupUserData</td>
-    <td>Backs up the user data at "C:\Users" to a specified backup location defined by the user.</td>
+    <td>AutoBackup</td>
+    <td>Automatically backup data, you choose the backup source and destination.</td>
   </tr>
  </table>
 <br>

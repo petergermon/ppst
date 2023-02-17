@@ -56,7 +56,7 @@ After running these scripts, it's a good security practice to disable execution 
     <th>Will it reboot my system automatically?</th>
   </tr>
   <tr>
-    <td>ResNet</td>
+    <td>NetReset</td>
     <td>Restarts all network adapters connected on the host system.</td>
     <td>N/A</td>
     <td>No</td>

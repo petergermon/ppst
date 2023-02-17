@@ -1,4 +1,4 @@
-# PowerShell-Technician-Toolkit
+# PowerShell Technician Toolkit (PSTT)
 PowerShell Scripts that can be ultilised to debug technical issues that may arise within the Windows Operating System.
 <br>
 

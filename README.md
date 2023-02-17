@@ -117,8 +117,10 @@ After running these scripts, it's a good security practice to disable execution 
     <td>No</td>
   </tr>
     <tr>
-    <td>FixWindowsApps</td>
-    <td>Reinstalls all Windows Apps.<br><b>(Auto Restarts Computer)</b></td>
+    <td>WinAppsFix</td>
+    <td>Resets/Reinstall Windows 10/11 Apps.</td>
+    <td>.\winappsfix</td>
+    <td>Yes</td>
   </tr>
     <tr>
     <td>FixWindowsUpdate</td>

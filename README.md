@@ -111,8 +111,10 @@ After running these scripts, it's a good security practice to disable execution 
     <td>No</td>
   </tr>
   <tr>
-    <td>Fix100PercentDiskUsage</td>
-    <td>Disables BITS, SysMain and DiagTrack services.</td>
+    <td>Disk100Fix</td>
+    <td>Fixes a common issue that affects HDD's where the disk usage is constantly at 100% and causing the system to perform slowly by disabling BITS, SysMain and DiagTrack services..</td>
+    <td>.\disk100fix.ps1</td>
+    <td>No</td>
   </tr>
     <tr>
     <td>FixWindowsApps</td>

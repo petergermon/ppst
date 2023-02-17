@@ -79,15 +79,15 @@ After running these scripts, it's a good security practice to disable execution 
 <table style="width:100%">
     <tr>
     <th>Script</th>
-    <th>Description</th> 
+    <th>Description</th>
+    <th>Usage Parameters</th>
+    <th>Will it reboot my system automatically?</th> 
   </tr>
   <tr>
-    <td>AdministratorAccountDisable</td>
-    <td>Disables the local administrator account.</td>
-  </tr>
-  <tr>
-    <td>AdministratorAccountEnable</td>
-    <td>Enables the local administrator account.</td>
+    <td>AdminToggle</td>
+    <td>Enables/Disables the local administrator account.</td>
+    <td>N/A</td>
+    <td>No</td>
   </tr>
   <tr>
     <td>Fix100PercentDiskUsage</td>

@@ -37,7 +37,7 @@ After running these scripts, it's a good security practice to disable execution 
   </tr>
     <tr>
     <td>ZeroOut</td>
-    <td>Zero out deleted data on a disk drive.</td>
+    <td>Zero out deleted data on your selected disk drive.</td>
     <td>.\zeroout.ps1 -Drive <i>"C:"</i></td>
   </tr>
  </table>

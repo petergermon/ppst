@@ -1,5 +1,5 @@
-# PowerShell Technician Toolkit (PSTT)
-PowerShell Technician Toolkit (PSTT) is a repository of PowerShell Scripts that can be ultilised to debug technical issues that may arise within the Windows Operating System.
+# PowerShell Technician's Toolkit (PSTT)
+PowerShell Technician's Toolkit (PSTT) is a repository of PowerShell Scripts that can be ultilised to debug technical issues that may arise within the Windows Operating System.
 <br>
 
 ----------------------------------------------------------------------------------------------------------------------

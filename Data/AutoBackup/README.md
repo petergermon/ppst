@@ -3,7 +3,7 @@ To use this script, you can save it as a .ps1 file and run it in a PowerShell te
 
 For example, if you want to backup user data from "C:\Users\Peter" to "D:\Backups", you can run the script with the following command:
 
-<i>.\backup.ps1 -Source "C:\Users\Peter" -Destination "D:\Backups"</i>
+<i>.\autobackup.ps1 -Source "C:\Users\Peter" -Destination "D:\Backups"</i>
 
 This will create a timestamped folder in "D:\Backups" (e.g., "D:\Backups\Backup_2023-02-17-121500") and copy all the user data from "C:\Users\Peter" to that folder. 
 

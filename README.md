@@ -28,7 +28,7 @@ After running these scripts, it's a good security practice to disable execution 
   <tr>
     <th>Script</th>
     <th>Description</th> 
-    <th>Usage Parameters</th>
+    <th>Usage Parameters / EXAMPLE</th>
   </tr>
   <tr>
     <td>AutoBackup</td>

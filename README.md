@@ -45,7 +45,7 @@ After running these scripts, it's a good security practice to disable execution 
   <tr>
     <th>Script</th>
     <th>Description</th> 
-    <th>Usage Parameters</th>
+    <th>Usage/Parameters</th>
     <th>Will it reboot my system automatically?</th>
   </tr>
   <tr>
@@ -67,25 +67,25 @@ After running these scripts, it's a good security practice to disable execution 
   <tr>
     <th>Script</th>
     <th>Description</th>
-    <th>Usage Parameters</th>
+    <th>Usage/Parameters</th>
     <th>Will it reboot my system automatically?</th>
   </tr>
   <tr>
     <td>NetReset</td>
     <td>Restarts all network adapters connected on the host system.</td>
-    <td>N/A</td>
+    <td>.\netreset.ps1</td>
     <td>No</td>
   </tr>
     <tr>
     <td>TestConnect</td>
     <td>Runs a test to determine network functionality, provides list of network adapters, IP addresses, DNS addresses and pings the loopback, default gateway and google.</td>
-    <td>N/A</td>
+    <td>.\testconnect.ps1</td>
     <td>No</td>
   </tr>
     <tr>
     <td>WinsockReset</td>
     <td>Resets the Windows Sockets API protocol.</td>
-    <td>N/A</td>
+    <td>.\winsockreset.ps1</td>
     <td>Yes</td>
   </tr>
 </table>
@@ -95,26 +95,24 @@ After running these scripts, it's a good security practice to disable execution 
     <tr>
     <th>Script</th>
     <th>Description</th>
-    <th>Usage Parameters</th>
+    <th>Usage/Parameters</th>
     <th>Will it reboot my system automatically?</th> 
   </tr>
   <tr>
     <td>AdminToggle</td>
     <td>Enables/Disables the local administrator account.</td>
-    <td>N/A</td>
+    <td>.\admintoggle.ps1</td>
+    <td>No</td>
+  </tr>
+  <tr>
+    <td>CorruptFix</td>
+    <td>Performs either a single SFC scan to repair corruptions on the system, or SFC and DISM scans to repair corruptions on the system and Windows image. <br><b>(Internet Connection Required for -Full)</b></td>
+    <td>.\corruptfix.ps1 -Quick | -Full</td>
     <td>No</td>
   </tr>
   <tr>
     <td>Fix100PercentDiskUsage</td>
     <td>Disables BITS, SysMain and DiagTrack services.</td>
-  </tr>
-  <tr>
-    <td>FixCorruptOS</td>
-    <td>Runs SFC and DISM scans to repair corruptions on the system and Windows image. <br><b>(Internet Connection Required)</b></td>
-  </tr>
-    <tr>
-    <td>FixCorruptOS_Quick</td>
-    <td>Runs an SFC scan to repair corruptions on the system.</td>
   </tr>
     <tr>
     <td>FixWindowsApps</td>

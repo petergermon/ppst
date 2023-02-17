@@ -33,7 +33,12 @@ After running these scripts, it's a good security practice to disable execution 
   <tr>
     <td>AutoBackup</td>
     <td>Automatically backup data allowing you to define the source and destination.</td>
-    <td>.\autobackup.ps1 --Source <i>SRCDIR</i> --Destination <i>DSTDIR</i> </td>
+    <td>.\autobackup.ps1 -Source <i>SRCDIR</i> -Destination <i>DSTDIR</i> </td>
+  </tr>
+    <tr>
+    <td>ZeroOut</td>
+    <td>Zero out deleted data on a disk drive you define.</td>
+    <td>.\zeroout.ps1 -Drive <i>"C:"</i></td>
   </tr>
  </table>
 <br>

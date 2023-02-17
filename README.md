@@ -28,12 +28,12 @@ After running these scripts, it's a good security practice to disable execution 
   <tr>
     <th>Script</th>
     <th>Description</th> 
-    <th>Parameters</th>
+    <th>Usage Parameters</th>
   </tr>
   <tr>
     <td>AutoBackup</td>
     <td>Automatically backup data allowing you to define the source and destination.</td>
-    <td>--Source  --Destination</td>
+    <td>.\autobackup.ps1 --Source SRCDIR --Destination DSTDIR </td>
   </tr>
  </table>
 <br>

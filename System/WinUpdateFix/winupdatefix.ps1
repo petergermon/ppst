@@ -20,11 +20,6 @@ Remove-Item -Path "$env:SystemRoot\SoftwareDistribution\DataStore\Logs\edb.log" 
 Remove-Item -Path "$env:SystemRoot\SoftwareDistribution\DataStore\DataStore.edb" -Force
 Remove-Item -Path "$env:SystemRoot\SoftwareDistribution\Download" -Recurse -Force
 
-# Perform Winsock Reset and Winsock Reset proxy
-Write-Host "Performing Winsock Reset and Winsock Reset proxy..."
-netsh winsock reset
-netsh winhttp reset proxy
-
 # Register BITS and Windows Update files
 Write-Host "Registering BITS and Windows Update files..."
 cd /d %windir%\system32
@@ -36,6 +31,11 @@ regsvr32.exe /s wucltui.dll
 regsvr32.exe /s wups.dll
 regsvr32.exe /s wups2.dll
 regsvr32.exe /s wuweb.dll
+
+# Perform Winsock Reset and Winsock Reset proxy
+Write-Host "Performing Winsock Reset and Winsock Reset proxy..."
+netsh winsock reset
+netsh winhttp reset proxy
 
 # Start all services associated with Windows Update and BITS
 Write-Host "Starting Windows Update and BITS services..."

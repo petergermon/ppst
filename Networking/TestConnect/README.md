@@ -6,3 +6,5 @@ Next, it tests the loopback connection by pinging the local computer (using "loc
 Then, it tests the connection to the default gateway by retrieving the IP address of the default gateway from the routing table (assuming that the default gateway has a destination prefix of "0.0.0.0/0") and pinging it.
 
 Finally, it tests the connection to Google by pinging the Google website.
+
+Run it in a PowerShell terminal to perform the tests.

@@ -5,6 +5,21 @@ PowerShell Technician's Toolkit (PSTT) is a repository of PowerShell Scripts tha
 <i>The best solution to fix all Windows problems is to remove Windows and use Linux instead.</i> ~Peter Germon.
 
 ----------------------------------------------------------------------------------------------------------------------
+<h2 align="center"><ins>Disclaimer</ins></h2>
+
+
+This repository of PowerShell scripts is provided as-is. 
+
+
+No warranty is provided with any of these scripts and you are responsible if you execute or modify these scripts. 
+
+
+If you break your own or anyone elses system using any of these scripts, that is not my responsibility. 
+
+
+Use at your own discretion.
+
+----------------------------------------------------------------------------------------------------------------------
 <h2 align="center"><ins>Enabling/Disabling PowerShell Script Execution</ins></h2>
 To ensure these scripts run correctly without errors, ensure PowerShell is running in an administrator session.
 <br><b>Run Windows PowerShell as Administrator:</b>

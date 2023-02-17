@@ -26,7 +26,7 @@ To ensure these scripts run correctly without errors, ensure PowerShell is runni
 <br><i>Right-click "Windows PowerShell" > "Run as Administrator".</i>
 <br>
 <br>
-You will also need to enable execution of powershell scripts in order for these scripts to work!
+You will also need to enable execution of powershell scripts in order for these scripts to work.
 <br>
 <b>Enable PowerShell Scripts:</b>
 <br><i>Set-ExecutionPolicy Unrestricted</i>

@@ -1,3 +1,4 @@
+<h2>TestConnect</h2>
 This script first outputs information on all network adapters, including their names, descriptions, statuses, MAC addresses, IP addresses (both IPv4 and IPv6), and DNS server addresses.
 
 Next, it tests the loopback connection by pinging the local computer (using "localhost" as the computer name).

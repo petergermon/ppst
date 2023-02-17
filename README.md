@@ -31,16 +31,19 @@ After running these scripts, it's a good security practice to disable execution 
     <th>Script</th>
     <th>Description</th> 
     <th>Usage Parameters</th>
+    <th>Will it reboot my system automatically?</th>
   </tr>
   <tr>
     <td>AutoBackup</td>
     <td>Automatically backup data allowing you to define the source and destination.</td>
     <td>.\autobackup.ps1 -Source <i>"C:\Users\Peter"</i> -Destination <i>"D:\Backups"</i> </td>
+    <td>No</td>
   </tr>
     <tr>
     <td>ZeroOut</td>
     <td>Zero out deleted data on your selected disk drive.</td>
     <td>.\zeroout.ps1 -Drive <i>"C:"</i></td>
+    <td>No</td>
   </tr>
  </table>
 <br>
@@ -48,19 +51,27 @@ After running these scripts, it's a good security practice to disable execution 
 <table style="width:100%">
   <tr>
     <th>Script</th>
-    <th>Description</th> 
+    <th>Description</th>
+    <th>Usage Parameters</th>
+    <th>Will it reboot my system automatically?</th>
   </tr>
   <tr>
-    <td>NetworkTest</td>
-    <td>Runs a test to determine network functionality, provides list of network adapters, IP addresses, DNS addresses and pings the loopback, default gateway and google.</td>
+    <td>ResNet</td>
+    <td>Restarts all network adapters connected on the host system.</td>
+    <td>N/A</td>
+    <td>No</td>
   </tr>
     <tr>
-    <td>RestartAdapters</td>
-    <td>Restarts all network adapters connected on the host system.</td>
+    <td>TestConnect</td>
+    <td>Runs a test to determine network functionality, provides list of network adapters, IP addresses, DNS addresses and pings the loopback, default gateway and google.</td>
+    <td>N/A</td>
+    <td>No</td>
   </tr>
     <tr>
     <td>WinsockReset</td>
     <td>Resets the Windows Sockets API protocol.</td>
+    <td>N/A</td>
+    <td>Yes</td>
   </tr>
 </table>
 <br>

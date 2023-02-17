@@ -123,7 +123,9 @@ After running these scripts, it's a good security practice to disable execution 
     <td>Yes</td>
   </tr>
     <tr>
-    <td>FixWindowsUpdate</td>
-    <td>Deletes the Windows Update cache and resets Windows Update.<br><b>(Auto Restarts Computer)</b></td>
+    <td>WinUpdateFix</td>
+    <td>Purges the Windows Update cache and resets Windows Update.</td>
+    <td>.\winupdatefix</td>
+    <td>Yes</td>
   </tr>
  </table>

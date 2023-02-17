@@ -5,4 +5,6 @@ For example, if you want to backup user data from "C:\Users\Peter" to "D:\Backup
 
 <i>.\backup.ps1 -Source "C:\Users\Peter" -Destination "D:\Backups"</i>
 
-This will create a timestamped folder in "D:\Backups" (e.g., "D:\Backups\Backup_2023-02-17-121500") and copy all the user data from "C:\Users\Peter" to that folder. Note that the script will overwrite any existing files with the same name in the backup folder, so be careful when specifying the destination path.
+This will create a timestamped folder in "D:\Backups" (e.g., "D:\Backups\Backup_2023-02-17-121500") and copy all the user data from "C:\Users\Peter" to that folder. 
+
+Note that the script will overwrite any existing files with the same name in the backup folder, so be careful when specifying the destination path.

@@ -25,7 +25,7 @@ To ensure these scripts run correctly without errors, ensure PowerShell is runni
 <br><b>Run Windows PowerShell as Administrator:</b>
 <br><i>Right-click "Windows PowerShell" > "Run as Administrator".</i>
 <br>
-<br><i>If using <b>Windows Terminal<b>, hold CTRL when opening a new tab, this will open an Administrator PowerShell Session. </i>
+<br><i>If using <b>Windows Terminal</b>, hold CTRL when opening a new tab, this will open an Administrator PowerShell Session. </i>
 <br>
 <br>
 You will also need to enable execution of powershell scripts in order for these scripts to work.

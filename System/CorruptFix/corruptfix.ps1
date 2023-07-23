@@ -1,18 +1,18 @@
 [CmdletBinding()]
 param(
     [Parameter(Mandatory=$false)]
-    [switch]$Quick,
+    [switch]$quick,
     [Parameter(Mandatory=$false)]
-    [switch]$Full
+    [switch]$full
 )
 
 # Check if the -Quick or -Full parameter is specified
-if ($Quick) {
+if ($quick) {
     # Perform a quick SFC scan
     Write-Host "Performing quick SFC scan..."
     sfc /scannow
 }
-elseif ($Full) {
+elseif ($full) {
     # Check if internet connection is available
     Write-Host "Checking internet connection..."
     if (!(Test-NetConnection -ComputerName "www.google.com" -InformationLevel "Quiet")) {

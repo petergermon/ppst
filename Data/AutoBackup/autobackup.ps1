@@ -1,13 +1,13 @@
 param(
     [Parameter(Mandatory=$true)]
-    [string]$Source,
+    [string]$src,
     [Parameter(Mandatory=$true)]
-    [string]$Destination
+    [string]$dst
 )
 
 # Create a timestamp for the backup folder
 $timestamp = Get-Date -Format "yyyy-MM-dd-HHmmss"
-$backupFolder = Join-Path $Destination "Backup_$timestamp"
+$backupFolder = Join-Path $dst "Backup_$timestamp"
 
 # Create the backup folder if it doesn't exist
 if (-not (Test-Path $backupFolder)) {
@@ -15,4 +15,4 @@ if (-not (Test-Path $backupFolder)) {
 }
 
 # Copy the user data to the backup folder
-Copy-Item $Source\* $backupFolder -Recurse -Force
+Copy-Item $src\* $backupFolder -Recurse -Force

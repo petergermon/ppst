@@ -1,9 +1,11 @@
 # Output information on network adapters
-Get-NetAdapter | Select-Object Name, InterfaceDescription, Status, MacAddress, `
-    @{Name="IPv4Address";Expression={$_.IPv4Address.IPAddress}}, `
-    @{Name="IPv6Address";Expression={$_.IPv6Address.IPAddress}}, `
-    @{Name="DNSServer";Expression={$_.IPv4Interface.DNSServer}}, `
-    @{Name="DNSServer";Expression={$_.IPv6Interface.DNSServer}}
+Get-NetAdapter | Format-Table -AutoSize
+
+# Output network adaptor IP address
+Get-NetIPAddress | Format-Table -AutoSize
+
+# Output network adaptor DNS server
+Get-DnsClientServerAddress | Format-Table -AutoSize
 
 # Test the loopback connection
 Write-Host "Testing loopback connection..."

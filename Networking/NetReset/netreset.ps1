@@ -5,11 +5,27 @@ Get-NetAdapter | ForEach-Object {
     Enable-NetAdapter -Name $_.Name
 }
 
+# Wait for network adapters to come back online
+Write-Host "Waiting for network adapters to come back online..."
+$timeout = 60
+$elapsed = 0
+$networkOnline = $false
+while ($elapsed -lt $timeout) {
+    Start-Sleep -Seconds 10
+    $elapsed += 10
+    if (Test-Connection -ComputerName google.com -Count 1 -Quiet) {
+        $networkOnline = $true
+        break
+    }
+}
+if (-not $networkOnline) {
+    Write-Error "Network adapters failed to come back online in time."
+    exit 1
+}
+
 # Release and renew all IP configurations
 Get-NetAdapter | ForEach-Object {
     Write-Host "Resetting IP configuration for $($_.Name)..."
-    Get-NetAdapter | Where-Object {$_.Name -eq $_.Name} | Remove-NetIPAddress -Confirm:$false
-    Get-NetAdapter | Where-Object {$_.Name -eq $_.Name} | Remove-NetRoute -Confirm:$false
     ipconfig /release $_.Name
     ipconfig /renew $_.Name
 }

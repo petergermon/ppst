@@ -9,7 +9,7 @@ if (!$isAdmin) {
 Write-Host "Stopping Windows Update and BITS services..."
 $services = "wuauserv", "BITS", "CryptSvc", "msiserver"
 foreach ($service in $services) {
-    if ((Get-Service -Name $service -ErrorAction SilentlyContinue) -ne $null) {
+    if ($null -ne (Get-Service -Name $service -ErrorAction SilentlyContinue)) {
         Stop-Service -Name $service -Force -ErrorAction SilentlyContinue
     }
 }
@@ -22,15 +22,14 @@ Remove-Item -Path "$env:SystemRoot\SoftwareDistribution\Download" -Recurse -Forc
 
 # Register BITS and Windows Update files
 Write-Host "Registering BITS and Windows Update files..."
-cd /d %windir%\system32
-regsvr32.exe /s qmgr.dll
-regsvr32.exe /s qmgrprxy.dll
-regsvr32.exe /s wuaueng.dll
-regsvr32.exe /s wuaueng1.dll
-regsvr32.exe /s wucltui.dll
-regsvr32.exe /s wups.dll
-regsvr32.exe /s wups2.dll
-regsvr32.exe /s wuweb.dll
+regsvr32.exe /s C:\Windows\System32\qmgr.dll
+regsvr32.exe /s C:\Windows\System32\qmgrprxy.dll
+regsvr32.exe /s C:\Windows\System32\wuaueng.dll
+regsvr32.exe /s C:\Windows\System32\wuaueng1.dll
+regsvr32.exe /s C:\Windows\System32\wucltui.dll
+regsvr32.exe /s C:\Windows\System32\wups.dll
+regsvr32.exe /s C:\Windows\System32\wups2.dll
+regsvr32.exe /s C:\Windows\System32\wuweb.dll
 
 # Perform Winsock Reset and Winsock Reset proxy
 Write-Host "Performing Winsock Reset and Winsock Reset proxy..."
@@ -40,7 +39,7 @@ netsh winhttp reset proxy
 # Start all services associated with Windows Update and BITS
 Write-Host "Starting Windows Update and BITS services..."
 foreach ($service in $services) {
-    if ((Get-Service -Name $service -ErrorAction SilentlyContinue) -ne $null) {
+    if ($null -ne (Get-Service -Name $service -ErrorAction SilentlyContinue)) {
         Start-Service -Name $service -ErrorAction SilentlyContinue
     }
 }

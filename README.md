@@ -53,13 +53,7 @@ After running these scripts, it's a good security practice to disable execution 
   <tr>
     <td>AutoBackup</td>
     <td>Automatically backup data allowing you to define the source and destination.</td>
-    <td>.\autobackup.ps1 -Source <i>"C:\Users\Peter"</i> -Destination <i>"D:\Backups"</i> </td>
-    <td>No</td>
-  </tr>
-    <tr>
-    <td>ZeroOut</td>
-    <td>Zero out deleted data on your selected disk drive.</td>
-    <td>.\zeroout.ps1 -Drive <i>"C:"</i></td>
+    <td>.\autobackup.ps1 -src <i>"C:\Users\Peter"</i> -dst <i>"D:\Backups"</i> </td>
     <td>No</td>
   </tr>
  </table>
@@ -109,7 +103,7 @@ After running these scripts, it's a good security practice to disable execution 
   <tr>
     <td>CorruptFix</td>
     <td>Performs either a single SFC scan to repair corruptions on the system, or SFC and DISM scans to repair corruptions on the system and Windows image. <br><b>(Internet Connection Required for -Full)</b></td>
-    <td>.\corruptfix.ps1 -Quick | -Full</td>
+    <td>.\corruptfix.ps1 -quick | -full</td>
     <td>No</td>
   </tr>
   <tr>

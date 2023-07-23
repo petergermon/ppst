@@ -111,23 +111,24 @@ After running these scripts, it's a good security practice to disable execution 
     <td>No</td>
   </tr>
   <tr>
-    <td>LastRebootDateTime</td>
-    <td>Displays the last reboot date and time of the system.</td>
-    <td>.\lastrebootdatetime.ps1</td>
-    <td>No</td>
-  <tr>
     <td>Disk100Fix</td>
     <td>Fixes a common issue that affects HDD's where the disk usage is constantly at 100% causing the system to perform slowly by disabling BITS, SysMain and DiagTrack services.</td>
     <td>.\disk100fix.ps1</td>
     <td>No</td>
   </tr>
-    <tr>
+  <tr>
+    <td>LastRebootDateTime</td>
+    <td>Displays the last reboot date and time of the system.</td>
+    <td>.\lastrebootdatetime.ps1</td>
+    <td>No</td>
+  </tr>
+  <tr>
     <td>WinAppsFix</td>
     <td>Resets/Reinstall Windows 10/11 Apps.</td>
     <td>.\winappsfix</td>
     <td>Yes</td>
   </tr>
-    <tr>
+  <tr>
     <td>WinUpdateFix</td>
     <td>Purges the Windows Update cache and resets Windows Update.</td>
     <td>.\winupdatefix</td>
